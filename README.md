@@ -79,11 +79,9 @@ git项目提交时，会自动run precommit 进而执行 npm run lint，执行es
 
 ### !!Attention!!
 
-- You have to install `npm` first.`npm` is distributed with `Node.js` - which means that when you download `Node.js`, you automatically get npm installed on your computer.
-  - install [npm](https://www.npmjs.com/get-npm)
-- antd theme config file is `src/theme.js`
-- config file for the whole project is `src/utils/config.js`
-- async request function is `src/utils/request.js`
+- antd的配置文件 `src/theme.js`
+- 全局的配置文件 `src/utils/config.js`
+- 异步请求方法 `src/utils/request.js`
   - （关于为什么使用axios而不是fetch：在一个无服务器的环境中模拟数据请求，[Mock](https://github.com/nuysoft/Mock)不能拦截Fetch，只能拦截XHR，所以我选了一个纯Ajax的库[axios](https://github.com/mzabriskie/axios)）
 
 
